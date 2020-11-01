@@ -290,6 +290,7 @@ textarea.contact-form__input {
     text-decoration: none;
     color: inherit;
     display: inline-block;
+    font-style: normal;
 }
 
 footer {
