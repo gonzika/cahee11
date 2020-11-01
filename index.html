@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>Cahee</title>
 </head>
 
 
@@ -41,12 +41,12 @@
         <a class="link" href="#sec2">!</a>
     </header>
 
-    <section class="sec2" id="sec2">
+    <section class="sec2 sec" id="sec2">
         <div class="container">
             <img class="sec2__img" src="img/sect2.png" alt="">
             <div class="sec2__1-2">
                 <div class="sect-box2">
-                    <h1 class="sect-box__title2">About Us</h1>
+                    <h2 class="sect-box__title2 h2-title">About Us</h2>
                     <div class="sect-box__text2">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                         reprehenderit in voluptate velit esse cillum.
@@ -56,6 +56,40 @@
             </div>
         </div>
     </section>
+
+    <section class="sec3 sec">
+        <div class="container container3">
+            <h2 class="contact__title h2-title">Contact</h2>
+            <div class="contact__title-descr">For new projects, ideas, business or anything
+                you'd like to discuss, contact with me!</div>
+            <div class="contact__body flex flex--left">
+                <form action="" name="contact-form" id="contact-form" class="contact__form" method="POST">
+                    <input required class="contact-form__input" value="Auskteez Tran" name="first-name" type="submit">
+                    <input required class="contact-form__input" placeholder="Your email..." name="email" type="email">
+                    <input required class="contact-form__input" placeholder="Your phone number..." name="phone"
+                        type="tel">
+                    <textarea form="contact-form" title="" required class="contact-form__input"
+                        name="message">Your messge...</textarea>
+                </form>
+                <div class="contact__adress">
+                    <div class="contact__adress--bold">ADDRESS</div>
+                    <address class="contact__adress--fz20">123 City name, Street, City, Country</address>
+                    <div class="contact__adress--bold">EMAIL</div>
+                    <a class="contact__adress--fz20" href="mailto:cahee@domain.com">cahee@domain.com</a>
+                    <div class="contact__adress--bold">PHONE</div>
+                    <a class="contact__adress--fz20" href="tel:+0123456789">+012 345 6789</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex">
+            <div>© 2015 Company. All right reserved.</div>
+            <a href="#"><img src="img/logo-white.png" alt="logo" class="header__img"></a>
+            <div>Made with <span class="footer--red">love</span> by Auskteez</div>
+        </div>
+    </footer>
 </body>
 
 </html>
